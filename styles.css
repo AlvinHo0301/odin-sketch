@@ -7,11 +7,11 @@ body{
 
 .header{
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
-  width: 500px;
-  justify-content: space-between;
-  margin : 20px;
+  width: 400px;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .footer{
@@ -20,10 +20,10 @@ body{
   justify-content: space-between;
   width: 500px;
   align-items: center;
-  margin: 20px;
+  margin-top: 20px;
 }
 
-.container{
+.board{
   width: 500px;
   height: 500px;
   display: grid;
